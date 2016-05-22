@@ -9,7 +9,7 @@
         http://www.springframework.org/schema/beans/spring-beans-3.1.xsd">  
 
 	<!-- RabbitMQ Connection Config  --> 
-    <rabbit:connection-factory id="connectionFactory" host="192.8.125.202" username="guest" password="guest" 
+    <rabbit:connection-factory id="connectionFactory" host="www.placeholder.top" username="guest" password="guest"
     port="5672" virtual-host="/" />
     <rabbit:admin connection-factory="connectionFactory"/>
     
