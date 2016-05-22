@@ -1,15 +1,10 @@
 package com.nettymq.test;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.io.OutputStream;
-import java.io.UnsupportedEncodingException;
-import java.net.Socket;
-import java.net.UnknownHostException;
+import com.nettymq.message.Header;
+import com.nettymq.message.Message;
 
-import com.nettymq.message.*;
+import java.io.*;
+import java.net.Socket;
 
 /**
  * Tcp client for echo server. This client also receive message forwarded by
