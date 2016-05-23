@@ -1,4 +1,4 @@
-package lcn.rabbitmq;
+package lcn.rabbitmq.单发送单接收;
 
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
