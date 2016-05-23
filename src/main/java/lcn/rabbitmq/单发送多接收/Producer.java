@@ -22,7 +22,7 @@ public class Producer {
 
         String message = getMessage(argv);
 
-        channel.basicPublish( "", TASK_QUEUE_NAME,
+        channel.basicPublish("", TASK_QUEUE_NAME,
                 MessageProperties.PERSISTENT_TEXT_PLAIN,
                 message.getBytes());
         System.out.println(" [x] Sent '" + message + "'");
@@ -31,7 +31,7 @@ public class Producer {
         connection.close();
     }
 
-    private static String getMessage(String[] strings){
+    private static String getMessage(String[] strings) {
         if (strings.length < 1)
             return "Hello World!";
         return joinStrings(strings, " ");
