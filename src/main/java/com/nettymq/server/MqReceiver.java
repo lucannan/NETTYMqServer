@@ -26,7 +26,7 @@ public class MqReceiver {
 
     public MqReceiver() {
         connnectionFactory = new ConnectionFactory();
-        connnectionFactory.setHost("192.8.125.202");
+        connnectionFactory.setHost("www.placeholder.top");
         connnectionFactory.setUsername("guest");
         connnectionFactory.setPassword("guest");
         connnectionFactory.setPort(5672);
